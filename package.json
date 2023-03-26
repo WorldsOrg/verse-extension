@@ -1,0 +1,25 @@
+{
+  "name": "verse",
+  "displayName": "Verse",
+  "description": "Syntax support for Epic Games' Verse programming language",
+  "version": "0.0.1",
+  "engines": {
+    "vscode": "^1.76.0"
+  },
+  "categories": [
+    "Programming Languages"
+  ],
+  "contributes": {
+    "languages": [{
+      "id": "verse",
+      "aliases": ["Verse", "verse"],
+      "extensions": [".verse"],
+      "configuration": "./language-configuration.json"
+    }],
+    "grammars": [{
+      "language": "verse",
+      "scopeName": "source.verse",
+      "path": "./syntaxes/verse.tmLanguage.json"
+    }]
+  }
+}
