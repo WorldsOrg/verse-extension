@@ -31,17 +31,6 @@
       "match": "\\b[a-zA-Z_]+[a-zA-Z0-9_]*\\b"
     },
     {
-      "begin": "(function|if|else|while|for|return)",
-      "end": "\\}",
-      "name": "Keyword Control",
-      "patterns": [
-        {
-          "match": "\\b\\w+\\b",
-          "name": "Keyword"
-        }
-      ]
-    },
-    {
       "match": "(=|==|!=|<|>|<=|>=|\\+|-|\\*|/|\\(|\\)|,|;|\\{|\\})",
       "name": "Operator"
     },
