@@ -2,7 +2,7 @@
   "name": "verse",
   "displayName": "Verse",
   "description": "Syntax support for Epic Games' Verse programming language",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "icon": "images/epic-games-logo.png",
   "engines": {
     "vscode": "^1.76.0"
