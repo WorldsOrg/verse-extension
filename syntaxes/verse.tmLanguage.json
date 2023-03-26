@@ -22,7 +22,11 @@
       "patterns": [
         {
           "name": "constant.character.escape.verse",
-          "match": "\\\\."
+          "match": "\\\\.|\\\\[{}]"
+        },
+        {
+          "name": "punctuation.definition.curly-brackets.verse",
+          "match": "{|}"
         }
       ]
     },
