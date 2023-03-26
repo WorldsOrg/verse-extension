@@ -21,12 +21,17 @@
       "end": "\"|”|'",
       "patterns": [
         {
-          "name": "constant.character.escape.verse",
-          "match": "\\\\.|\\\\[{}]"
+          "name": "constant.character.escape.curly.verse",
+          "match": "(?<=\\{).*?(?=\\})",
+          "captures": {
+            "1": {
+              "name": "constant.character.escape.curly.curly.verse"
+            }
+          }
         },
         {
-          "name": "punctuation.definition.curly-brackets.verse",
-          "match": "{|}"
+          "name": "constant.character.escape.verse",
+          "match": "\\\\."
         }
       ]
     },
