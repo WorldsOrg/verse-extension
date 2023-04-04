@@ -1,9 +1,9 @@
 {
   "name": "verse",
-  "displayName": "Verse",
+  "displayName": "Worlds VS Code Extension for Verse",
   "description": "Syntax support for Epic Games' Verse programming language",
   "version": "1.1.0",
-  "icon": "images/unreal-logo.png",
+  "icon": "images/worlds-logo.png",
   "engines": {
     "vscode": "^1.76.0"
   },
