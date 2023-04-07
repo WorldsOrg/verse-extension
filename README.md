@@ -1,4 +1,4 @@
-# Verse Syntax Support
+# Syntax Support for Verse
 
 This extension provides syntax support for Epic Games' Verse programming language.
 
