@@ -6,12 +6,6 @@
 
 This extension provides syntax support for Epic Games' Verse programming language.
 
-## Installation Stats
-
-📈 **10,000+** installs | ⭐ **4.7/5** rating | 📦 **v1.1.5** latest version
-
-The extension is actively used by developers in the Verse community. Visit the [VS Code Marketplace](https://marketplace.visualstudio.com/items?itemName=Worlds.verse) for current statistics.
-
 Developed by [worlds.org](https://www.worlds.org/)
 
 This is not an official Verse VS Code extension and is not affiliated with Epic Games in any way.
