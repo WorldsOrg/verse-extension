@@ -20,6 +20,7 @@
       "id": "verse",
       "aliases": ["Verse", "verse"],
       "extensions": [".verse"],
+      "filenamePatterns": ["*.digest.verse"],
       "configuration": "./language-configuration.json"
     }],
     "grammars": [{
