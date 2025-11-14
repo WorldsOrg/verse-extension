@@ -17,8 +17,8 @@
     },
     {
       "name": "string.quoted.double.verse",
-      "begin": "\"|“|'",
-      "end": "\"|”|'",
+      "begin": "\"",
+      "end": "\"",
       "patterns": [
         {
           "name": "constant.character.escape.curly.verse",
@@ -29,6 +29,17 @@
             }
           }
         },
+        {
+          "name": "constant.character.escape.verse",
+          "match": "\\\\."
+        }
+      ]
+    },
+    {
+      "name": "string.quoted.single.verse",
+      "begin": "'",
+      "end": "'",
+      "patterns": [
         {
           "name": "constant.character.escape.verse",
           "match": "\\\\."
