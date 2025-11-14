@@ -4,6 +4,15 @@ All notable changes to the "verse" extension will be documented in this file.
 
 Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
 
-## [Unreleased]
+## [1.1.6] - 2025-11-14
 
-- Initial release
+### Added
+- Support for `.digest.verse` files (auto-generated asset files from UEFN)
+- Improved documentation explaining extension capabilities and limitations
+
+### Fixed
+- File recognition for `*.digest.verse` filename pattern
+
+## [1.1.5] - Previous Release
+
+- Initial release with basic syntax highlighting
