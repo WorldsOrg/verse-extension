@@ -9,3 +9,16 @@ This extension provides syntax support for Epic Games' Verse programming languag
 Developed by [worlds.org](https://www.worlds.org/)
 
 This is not an official Verse VS Code extension and is not affiliated with Epic Games in any way.
+
+# Developer
+To update to VSCode Marketplace, update version in package.json ie `"version": "1.1.6"`
+```bash
+vsce login Worlds
+```
+* Note: make sure you are logged into microsoft with account connected to Worlds Publisher. Should be able to access `https://marketplace.visualstudio.com/manage/publishers/Worlds`
+```bash
+vsce package 
+```
+```bash
+vsce publish
+```
