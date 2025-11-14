@@ -8,7 +8,6 @@ Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how 
 
 ### Added
 - Support for `.digest.verse` files (auto-generated asset files from UEFN)
-- Improved documentation explaining extension capabilities and limitations
 
 ### Fixed
 - File recognition for `*.digest.verse` filename pattern
